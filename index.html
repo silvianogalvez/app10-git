@@ -1,0 +1,517 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>Tercera  Aplicacion</title>
+  
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!--grupo CSS-->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+    <link rel="stylesheet" href="css/tema-app10.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+    <!--grupo JavaScript-->
+    <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/acciones.js"></script>
+	<script src="phonegap.js"></script>
+	<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+  </head>
+
+ <body onLoad="MM_preloadImages('imagenes/batalla6.jpg','imagenes/batalla3.jpg','imagenes/dgti1.jpg','imagenes/proga1.jpg','imagenes/electri1.jpg','imagenes/meca1.jpg','imagenes/logi.jpg','imagenes/espacio1.jpg','imagenes/espacio3.jpg','imagenes/espacio4.jpg')">
+
+	<div data-role="page" id="Principal" data-theme="a">
+	  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" 	data-back-btn-theme="b">
+		<h1>CBTis N° 16</h1>
+      </div>
+	<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/visor.jpg" alt="visor" title="visor" id="wows1_0"/></li>
+		<li><img src="data1/images/visor1.jpg" alt="visor1" title="visor1" id="wows1_1"/></li>
+		<li><img src="data1/images/visor2.jpg" alt="visor2" title="visor2" id="wows1_2"/></li>
+		<li><img src="data1/images/visor3.jpg" alt="visor3" title="visor3" id="wows1_3"/></li>
+		<li><img src="data1/images/visor4.jpg" alt="visor4" title="visor4" id="wows1_4"/></li>
+		<li><img src="data1/images/visor5.jpg" alt="visor5" title="visor5" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/visor6.jpg" alt="css slider" title="visor6" id="wows1_6"/></a></li>
+		<li><img src="data1/images/visor7.jpg" alt="visor7" title="visor7" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="visor"><span><img src="data1/tooltips/visor.jpg" alt="visor"/>1</span></a>
+		<a href="#" title="visor1"><span><img src="data1/tooltips/visor1.jpg" alt="visor1"/>2</span></a>
+		<a href="#" title="visor2"><span><img src="data1/tooltips/visor2.jpg" alt="visor2"/>3</span></a>
+		<a href="#" title="visor3"><span><img src="data1/tooltips/visor3.jpg" alt="visor3"/>4</span></a>
+		<a href="#" title="visor4"><span><img src="data1/tooltips/visor4.jpg" alt="visor4"/>5</span></a>
+		<a href="#" title="visor5"><span><img src="data1/tooltips/visor5.jpg" alt="visor5"/>6</span></a>
+		<a href="#" title="visor6"><span><img src="data1/tooltips/visor6.jpg" alt="visor6"/>7</span></a>
+		<a href="#" title="visor7"><span><img src="data1/tooltips/visor7.jpg" alt="visor7"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">http://wowslider.net/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+	  
+   
+	  <div>
+		<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+		<li class="ui-first-child ui-last-child">
+			<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>QUE ES DGTI</h2>
+				
+			</a>
+		</li>
+		<li class="ui-first-child ui-last-child">
+			<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>UBICACION</h2>
+				
+			</a>
+		</li>
+		<li class="ui-first-child ui-last-child">
+			<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>ESPECIALIDADES</h2>
+				
+			</a>
+		</li>
+		<li class="ui-first-child ui-last-child">
+			<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>INGRESO</h2>
+			
+			</a>
+		</li>
+		<li class="ui-first-child ui-last-child">
+			<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>PLANTEL DEL CBTis N°16</h2>
+			
+			</a>
+		</li>
+        <li class="ui-first-child ui-last-child">
+	    <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>DATOS DEL DESARROLLADOR</h2>
+			
+		  </a>
+		</li>
+        <li class="ui-first-child ui-last-child">
+	    <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>SERVICIOS</h2>
+			
+		  </a>
+		</li>
+         <li class="ui-first-child ui-last-child">
+	    <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>ESPACIOS RECREATIVOS</h2>
+			
+		  </a>
+		</li>
+		</ul>
+	</div>
+	<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+		<div>
+			<img src="res/android/mdpi.png" width="46" height="46">
+		</div>
+		<div>
+			<h4>PROYECTO FINAL</h4>
+			<h4>Silvano Galvez Segundo</h4>
+		</div>
+	 </div>
+ </div>
+    <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>QUE ES DGTI</h1>
+      </div>
+       <div data-role="content" align="center">
+         <div>
+        <h2>La Dirección General de Educación Tecnológica Industrial (DGETI) es una dependencia adscrita a la Subsecretaría de Educación Media Superior (SEMS) que ofrece el servicio educativo de nivel medio superior tecnológico.
+        </h2>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image9','','imagenes/dgti1.jpg',1)"><img src="imagenes/dgti.jpg" width="259" height="194" id="image9"></a></p>
+        <p>
+         </p>
+         </div>
+      </div>
+        <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion 10, SGS</h4>
+      </div>
+ </div>
+        </div> 
+        
+      <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>UBICACION</h1>
+       </div>
+      <div data-role="content" align="center">
+         <div>
+        <h2
+        </h2>
+        <p></p>
+      
+         </div>
+        </div>
+        
+        
+            <div data-role="main" class="ui-content" align="center">
+           <div style="width:40%;">
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+           <a href="https://www.google.com.mx/maps/place/CBTis+No+016/@18.9034483,-98.4265976,17z/data=!3m1!4b1!4m5!3m4!1s0x85cfb47405555555:0x19bb49f598a8846f!8m2!3d18.9034483!4d-98.4244089"  data-role="button" 
+           <h2>ubicacion</h2>
+          </a>
+         </li>
+         </ul>
+         </div>
+         </div>
+         
+        <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion 10, SGS</h4>
+        </div>
+ </div>
+        </div>
+        
+     <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>ESPECIALIDADES</h1>
+       </div>
+
+       <div data-role="content" align="center">
+       <div>
+           <div data-role="collapsible" data-content-theme="false">
+     	<h1>PROGAMACION</h1>
+        <p>Desarrolla aplicaciones con acceso a bases de datos
+            Mediante la integración de la programación orientada a objetos
+Según requerimientos y necesidades del cliente
+Definiendo y cumpliendo con los sistemas y esquemas de trabajo
+Compartiendo con el equipo de trabajo experiencia, y conocimiento para el logro de metas y objetivos
+Entregando en tiempo y forma las tareas asignadas por el grupo de trabajo </p>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/proga1.jpg',1)"><img src="imagenes/proga.jpg" width="259" height="194" id="Image11"></a></p>
+       
+          <div data-role="main" class="ui-content" align="center">
+           <div style="width:40%;">
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+           <a href="http://www.cbtis016.edu.mx/index.php/oferta-educativa/programacion"  data-role="button" 
+           <h2>PROGAMACION</h2>
+          </a>
+         </li>
+         </ul>
+         </div>
+         </div>
+         </div>
+         
+       
+         
+      <div data-role="collapsible" data-content-theme="false">
+     	<h1>ELECTRICIDAD</h1>
+        <p>La Ingeniería Técnica en Electricidad se centra en el desarrollo y aplicación de la energía eléctrica en beneficio de las personas. Su objetivo, en términos generales, es la adaptación de la energía eléctrica a la extensa gama de aplicaciones industriales. Las estructuras productivas de la industria actual precisan una progresiva automatización de sus procesos y la utilización de técnicas asistidas por ordenador. </p>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/electri1.jpg',1)"><img src="imagenes/electri.jpg" width="259" height="194" id="Image13"></a></p>
+        
+         <div data-role="main" class="ui-content" align="center">
+           <div style="width:40%;">
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+           <a href="http://www.cbtis016.edu.mx/index.php/oferta-educativa/electricidad"  data-role="button" 
+           <h2>ELECTRICIDAD</h2>
+          </a>
+         </li>
+         </ul>
+         </div>
+         </div>
+         </div>
+         </div>
+        
+          <div data-role="collapsible" data-content-theme="false">
+     	<h1>MECANICA INDUSTRIAL</h1>
+        <p>Profesional capaz de calcular y diseñar elementos, máquinas, equipos y sistemas mecánicos.
+Planifica, dirige y evalúa proyectos de ingeniería, optimizándolos y controlando su operación.
+Planifica y modela procesos productivos y de transformación de energía.
+Su área son las industrias destinadas a transformar las materias primas en productos manufacturados, industrias de producción metalmecánica (fabricación de piezas y maquinaria) e industrias de conversión, transporte y utilización de energía.
+Posee sólidos conocimientos en *Ciencias Básicas, *Ciencias de la  Ingeniería y de su especialidad de Ingeniería Mecánica. 
+Sus conocimientos en Ciencias Básicas le permiten enfrentar problemas que requieren capacidad analítica y de innovación.
+
+ . </p>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/meca1.jpg',1)"><img src="imagenes/meca.jpg" width="259" height="194" id="Image14"></a></p>
+        
+           <div data-role="main" class="ui-content" align="center">
+           <div style="width:40%;">
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+           <a href="http://www.cbtis016.edu.mx/index.php/oferta-educativa/mecanica-industrial"  data-role="button" 
+           <h2>MECANICA INDUSTRIAL</h2>
+          </a>
+         </li>
+         </ul>
+         </div>
+         </div>
+         </div>
+
+         <div data-role="collapsible" data-content-theme="false">
+     	<h1>LOGISTICA</h1>
+        <p>Formar especialistas con saberes, habilidades y actitudes para desarrollar e implantar modelos de logística de negocios en ambientes nacionales e internacionales, que permitan la operación y optimización de la cadena de suministro, basados en fundamentos éticos y de responsabilidad social, con la finalidad de mejorar los niveles de servicio al cliente o a los distintos grupos de interés (skateholders), reducir los costos totales de operación y fortalecer la competitividad de las organizaciones.
+ . </p>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/logi.jpg',1)"><img src="imagenes/especialidad1.jpg" width="399" height="126" id="Image16"></a></p>
+        
+          <div data-role="main" class="ui-content" align="center">
+           <div style="width:40%;">
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+           <a href="http://www.cbtis016.edu.mx/index.php/oferta-educativa/logistica"  data-role="button" 
+           <h2>LOGISTICA</h2>
+          </a>
+         </li>
+         </ul>
+         </div>
+         </div>
+         </div>
+         </div>
+            
+      
+ <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion 10, SGS</h4>
+         </div>
+         </div>
+       </div>  
+ </div>
+      </div>
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>REQUISITOS PARA INGRESAR </h1>
+   </div>
+     <div data-role="content" align="center">
+          <div data-role="main" class="ui-content" align="center">
+           <div style="width:40%;">
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+           <a href="http://www.cbtis016.edu.mx/index.php/estudiantes/nuevo-ingreso"  data-role="button" 
+           <h2>FICHA DE INGRESO</h2>
+          </a>
+         </li>
+         </ul>
+         </div>
+         </div>
+     </div>
+        <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion 10, SGS</h4>
+   </div>
+ </div>
+        </div> 
+        
+         <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>PLANTEL</h1>
+       </div>
+          <div data-role="collapsible" data-content-theme="false">
+     	<h1>VISOR</h1>
+        
+        <div>
+        <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/imagen_6.jpg" alt="imagen 6" title="imagen 6" id="wows2_0"/></li>
+		<li><img src="data2/images/imagen.jpg" alt="imagen" title="imagen" id="wows2_1"/></li>
+		<li><img src="data2/images/imagen1.jpg" alt="imagen1" title="imagen1" id="wows2_2"/></li>
+		<li><img src="data2/images/imagen2.jpg" alt="imagen2" title="imagen2" id="wows2_3"/></li>
+		<li><img src="data2/images/imagen3.jpg" alt="imagen3" title="imagen3" id="wows2_4"/></li>
+		<li><img src="data2/images/imagen4.jpg" alt="imagen4" title="imagen4" id="wows2_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data2/images/imagen5.jpg" alt="http://wowslider.net/" title="imagen5" id="wows2_6"/></a></li>
+		<li><img src="data2/images/imagen7.jpg" alt="imagen7" title="imagen7" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="imagen 6"><span><img src="data2/tooltips/imagen_6.jpg" alt="imagen 6"/>1</span></a>
+		<a href="#" title="imagen"><span><img src="data2/tooltips/imagen.jpg" alt="imagen"/>2</span></a>
+		<a href="#" title="imagen1"><span><img src="data2/tooltips/imagen1.jpg" alt="imagen1"/>3</span></a>
+		<a href="#" title="imagen2"><span><img src="data2/tooltips/imagen2.jpg" alt="imagen2"/>4</span></a>
+		<a href="#" title="imagen3"><span><img src="data2/tooltips/imagen3.jpg" alt="imagen3"/>5</span></a>
+		<a href="#" title="imagen4"><span><img src="data2/tooltips/imagen4.jpg" alt="imagen4"/>6</span></a>
+		<a href="#" title="imagen5"><span><img src="data2/tooltips/imagen5.jpg" alt="imagen5"/>7</span></a>
+		<a href="#" title="imagen7"><span><img src="data2/tooltips/imagen7.jpg" alt="imagen7"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+        </div>
+        </div>
+       
+            <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion 10, SGS</h4>
+          </div>
+         </div>
+        </div> 
+        
+   <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>MISDATOS</h1>
+      
+     </div>
+        <div data-role="content" align="center">
+  
+</div>
+    <div data-role="collapsible" data-content-theme="false" align="center">
+     	<h1>DATOS</h1>
+        <p> AUTOR: SILVIANO GALVEZ SEGUNDO</p>
+        <p> 4° "F" </p>
+        <p>PROGAMADOR</p>     
+     </div>
+       
+                 <div data-role="main" class="ui-content" align="center">
+           <div style="width:40%;">
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+           <a href="https://www.facebook.com/"  data-role="button" 
+           <h2>FACEBOOK</h2>
+          </a>
+         </li>
+         </ul>
+         </div>
+         </div>
+        <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion 10, SGS</h4>
+     </div>
+   </div>
+   </div> 
+ 
+        
+ <div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>SERVICIOS Y MAS</h1>
+       </div>
+           <div data-role="main" class="ui-content" align="center">
+           <div style="width:40%;">
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+           <a href="//http://www.cbtis016.edu.mx/index.php/servicios-escolares/becas"  data-role="button" 
+           <h2>BECAS</h2>
+          </a>
+         </li>
+         </ul>
+         </div>
+         </div>
+              
+               <div data-role="main" class="ui-content" align="center">
+           <div style="width:40%;">
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+           <a href="http://www.cbtis016.edu.mx/index.php/plantel/historia-del-plantel"  data-role="button" 
+           <h2>HISTORIA DEL PLANTEL</h2>
+          </a>
+         </li>
+         </ul>
+         </div>
+         </div>
+         
+                 <div data-role="main" class="ui-content" align="center">
+           <div style="width:40%;">
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+           <a href="http://www.cbtis016.edu.mx/index.php/plantel/mision-y-vision"  data-role="button" 
+           <h2>MISION Y VISION</h2>
+          </a>
+         </li>
+         </ul>
+         </div>
+         </div>
+         
+            <div data-role="main" class="ui-content" align="center">
+           <div style="width:40%;">
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+           <a href="https://m.facebook.com/Escolares-CBTis-No-16-Atlixco-1729559907319083/"  data-role="button" 
+           <h2>FACEBOOK CBTis16</h2>
+          </a>
+         </li>
+         </ul>
+         </div>
+         </div>
+         
+            <div data-role="main" class="ui-content" align="center">
+           <div style="width:40%;">
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+           <a href="http://148.207.17.6/informe2016/web/"  data-role="button" 
+           <h2>INFORME DE ACTIVIDADES</h2>
+          </a>
+         </li>
+         </ul>
+         </div>
+         </div>
+         
+            <div data-role="main" class="ui-content" align="center">
+           <div style="width:40%;">
+           <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+           <a href=" https://youtu.be/zD2ztr91p-s"  data-role="button" 
+           <h2>VIDEO</h2>
+          </a>
+         </li>
+         </ul>
+         </div>
+         </div>
+      
+         
+       <div data-role="footer" data-theme="b" data-position="fixed">
+       <h4>Aplicacion 10, SGS</h4>
+     </div>
+   </div>
+   </div> 
+          
+          
+ <div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>ESPACIS RECREATIVOS</h1>
+       </div>
+              
+         <div data-role="collapsible" data-content-theme="false" align="center">
+     	<h1>FUTBOL RAPIDO</h1>
+     	<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image24','','imagenes/espacio1.jpg',1)"><img src="imagenes/espacio.jpg" width="259" height="194" id="Image24"></a></p> 
+   </div>
+   
+    <div data-role="collapsible" data-content-theme="false" align="center">
+     	<h1>CAMPO</h1>
+     	<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','imagenes/espacio3.jpg',1)"><img src="imagenes/espacio2.jpg" width="259" height="194" id="Image25"></a></p>   
+   </div>
+   
+                <div data-role="collapsible" data-content-theme="false" align="center">
+     	<h1>CANCHA DE BASQUETBOL</h1>
+     	<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image26','','imagenes/espacio4.jpg',1)"><img src="imagenes/espacio5.jpg" width="259" height="194" id="Image26"></a></p>
+     	
+        
+       
+         
+   </div>
+     
+   <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion 10, SGS</h4>
+     </div>
+   </div>
+   </div>           
+</body>
+</html>
